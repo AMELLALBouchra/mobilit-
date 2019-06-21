@@ -1,0 +1,187 @@
+body{
+    background-size:fixed;
+    background-repeat: no-repeat;
+    background-position: 25% 75%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #F7F4F0;
+    margin-top: 0;
+     }
+input{
+    outline: none;
+}
+#wrapper {
+    
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;  
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+}
+.header > h2 {
+    text-align: center;
+    padding-top: 40px;
+    color: black;
+    margin: 0;
+    font-family: serif, sans-serif;
+    font-weight: 900;
+}
+h2 {
+    text-align: center;
+    padding-top: 40px;
+    background-color:#F7F4F0 ;
+    font-weight: 3000;
+    color: #1C3E63;
+    
+    
+    
+}
+h3 {font-family: serif, sans-serif;
+text-align: center;
+padding-top: 40px;
+color: #191970;
+text-decoration: underline;   
+
+    
+   
+    
+}
+h4 {font-family: serif, sans-serif;
+text-align: center;
+padding-top: 40px;
+color: #0B3861;
+     
+    }
+h6 {
+    margin: 0;
+    width: auto;
+    height: 10px;
+    background-color: #CED8F6;
+    
+    padding: 20px 35px;
+    color: black;
+    border-top: 1px solid #ededed;
+    box-sizing: border-box;
+    font-family: 'lato' , sans-serif;
+    font-weight: 300;
+}
+h4 {font-family: serif, sans-serif;
+text-align: center;
+padding-top: 40px;
+font-weight: 400;
+
+     
+    }
+footer{ 
+  position:fixed; 
+  bottom:0; 
+  background:#4169E1; 
+  height:auto; 
+  width:100%; 
+}
+label {
+ display: block;
+	width: 250px;
+	float: left;
+ color: #1C3E63
+}
+form {
+  /* Uniquement centrer le formulaire sur la page */
+  margin: auto;
+  width: 300px;
+		float: left;
+		height: 400px;
+ }
+h5 {
+  background-color: blue;
+ }
+nav {
+		width: 100%;
+		background-color: #424558;
+	}
+nav ul{
+		margin: 0px;
+		padding: 0px;
+	}
+nav li {
+		list-style-type: none;
+		float: left;
+	}
+nav a {
+		display: inline-block;
+		text-decoration: none;
+		padding: 20px 30px;
+		color: #FFF;
+		text-transform: uppercase;
+		font-size: 15px;
+	}
+.table{
+	display: table;
+	margin: 0 auto;
+}
+.pre {
+  float: right;
+margin-top: 0px;
+width: 70%;
+height:auto;
+}
+.choix{float: right;
+margin-top: -395px;
+width: 950px;
+height:375px;}
+.publRapp{float: left;
+margin-top: 0;
+width: 300px;
+height:340px;}
+.publRapp1{float: left;
+margin-top: 0;
+width: 300px;
+height:490px;}
+.pubrapport{
+float: right;
+margin-right: -1000px;
+width: 920px;
+height:320px;
+ }
+.motdepasse{
+  
+margin-left: 400px;
+width: 500px;
+height:320px;
+  
+ }
+.pasmem{float: left;
+margin-right:900px;
+margin-top:0px;	
+width: 300px;
+height:100px;}
+.choixAgenda{
+float: right;
+margin-top: 0px;
+width: 950px;
+height:375px;	
+}
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #424558; /* Add a green color to the "active/current" link */
+  color: white;
+}
